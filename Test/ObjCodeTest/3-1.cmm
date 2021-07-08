@@ -1,0 +1,17 @@
+//测试结构体内含1维数组
+
+struct Vector{
+    int a[10];
+    int b;
+};
+
+int main(){
+    struct Vector x;
+    x.a[0]=0;
+    x.a[1]=1;
+    x.a[2]=2;
+    x.a[3]=3;
+    x.b=4;
+    write(x.a[0]+x.a[1]+x.a[2]+x.a[3]+x.b);
+    return 0;
+}

@@ -1,0 +1,13 @@
+//测试结构体数组
+int main(){
+    struct Vector{
+        int x;
+        int y;
+    }u[10];
+    u[2].x=3;
+    u[2].y=4;
+    u[5].x=5;
+    u[6].y=6;
+    write(u[2].x+u[2].y+u[5].x*u[6].y);//37
+    return 0;
+}

@@ -1,0 +1,11 @@
+//测试十六进制、八进制加减乘除
+int main(){
+    int i=0x1A;//26
+    int j=0xD;//13
+    write(i+j);//39
+    write(i-j);//13
+    write(i*j);//338
+    write(i/j);//2
+    write(0x1A+0xD);//39
+    return 0;
+}

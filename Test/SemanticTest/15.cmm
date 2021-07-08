@@ -1,0 +1,11 @@
+struct Position {
+	float x, y;
+};
+
+int func(int a);
+
+int func(struct Position p); // 声明冲突
+
+int main() {
+	func(1); // 函数未定义
+}

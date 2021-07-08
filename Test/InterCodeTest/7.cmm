@@ -1,0 +1,27 @@
+struct Op {
+	int ox, oy;
+};
+
+struct Test {
+	int tx;
+	int ty[2][3];
+	struct Op top;
+	struct Op top_array[2][3];
+};
+
+int main() {
+	struct Test t;
+
+	t.tx = 2;
+	write(t.tx);
+
+	t.ty[1][2] = 1;
+	write(t.ty[1][2]);
+
+	t.top.ox = 10;
+	write(t.top.ox);
+
+	t.top_array[1][2].oy = 100;
+	write(t.top_array[1][2].oy);
+
+}

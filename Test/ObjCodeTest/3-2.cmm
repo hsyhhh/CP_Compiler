@@ -1,0 +1,13 @@
+//测试一维数组传参
+int f(int a[10]){
+    return a[0]+a[1];
+}
+
+int main(){
+    int x[10];
+    x[0]=5;
+    x[1]=6;
+    x[2]=7;
+    write(f(x));
+    return 0;
+}

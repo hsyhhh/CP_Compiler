@@ -1,0 +1,13 @@
+//测试大量计算
+
+int main() {
+    int i = 1, j = 11, k = 39;
+    int result = 0;
+    i = (-i) + k + (-(17 * i))+1;//i=-1+39+1=22
+    write(i);
+    k = i * (i / j) + k;//k=22*(22/11)+39=83
+    write(k);
+    result = 4 * i + j / 2 + i * k / 22;//result=4*22+11/2+22*83/22=88+5+83=176
+    write(result);
+    return 0;
+}

@@ -1,0 +1,15 @@
+FUNCTION f :
+PARAM a
+x := a
+RETURN x
+FUNCTION main :
+READ i
+WRITE i
+ARG #3
+t5 := CALL f
+WRITE t5
+WRITE #16
+ARG #16
+t8 := CALL f
+WRITE t8
+RETURN #0

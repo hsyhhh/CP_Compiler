@@ -1,0 +1,4 @@
+int main() {
+	int i;
+	return i[0]; // i不是数组类型
+}

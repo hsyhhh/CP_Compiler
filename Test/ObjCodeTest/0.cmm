@@ -1,0 +1,14 @@
+//测试函数,八进制和十六进制,read和write
+int f(int a){
+    int x;
+    x=a;
+    return x;
+}
+int main(){
+    int i=read();
+    write(i);
+    write(f(3));//打印3
+    write(020);//打印16
+    write(f(0x10));//打印16
+    return 0;
+}

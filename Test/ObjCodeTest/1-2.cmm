@@ -1,0 +1,17 @@
+//测试结构体传参(可以传参，但是不能做返回值)
+struct Vector
+{
+    int x,y;
+};
+
+int f(struct Vector v0){
+    return v0.x+v0.y;
+}
+
+int main(){
+    struct Vector v;
+    v.x=3;
+    v.y=5;
+    write(f(v));
+    return 0;
+}

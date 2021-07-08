@@ -1,0 +1,13 @@
+//测试结构体
+struct Vector
+{
+    int x,y;
+};
+int main(){
+    struct Vector a;
+    a.x=3;
+    a.y=4;
+    write(a.x);
+    write(a.y);
+    return 1;
+}

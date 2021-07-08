@@ -1,0 +1,21 @@
+//测试嵌套结构体
+struct Vector{
+    int x;
+    int y;
+};
+
+int main(){
+    int i=3;
+
+    struct Vector2{
+        struct Vector v;
+        int z;
+    }m;
+    m.v.x=i;
+    m.v.y=4;
+    m.z=5;
+    write(m.v.x);//3
+    write(m.v.y);//4
+    write(m.z);//5
+    return 0;
+}

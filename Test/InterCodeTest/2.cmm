@@ -1,0 +1,21 @@
+/* 测试结构体 */
+struct Operands {
+	int o1;
+	int o2;
+};
+
+/* 结构体作为函数参数 */
+int add(struct Operands tmp) {
+	return (tmp.o1 + tmp.o2);
+}
+
+int main() {
+	int n;
+	struct Operands op;
+	struct Operands b;
+	op.o1 = 1;
+	op.o2 = 2;
+	n = add(op);
+	write(n);
+	return 0;
+}

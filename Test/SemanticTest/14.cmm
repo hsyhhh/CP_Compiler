@@ -1,0 +1,7 @@
+struct Position {
+	int x;
+};
+
+struct Position { // 结构体重复定义
+	int u;
+};
