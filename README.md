@@ -1,7 +1,4 @@
 # Compile Principle Project
-
-​	洪斯谕	黄家伟
-
 - Code
   - 编译器源代码
 - Test/SemanticTest
